@@ -61,7 +61,6 @@
          </ul>
       </div>
       <!-- copyright text -->
-      <p class="copyright-text">&copy; 2020 The WebShala</p>
    </nav>
    <div class="fade-out-effect">
    </div>
@@ -636,19 +635,20 @@
             </div>
             <!-- contact item end -->
          </div>
-         <!-- <div class="row">
+         <div class="row">
             <div class="contact-form">
-               <form action=”https://formsubmit.co/aldcejam.pro@gmail.com” method=”POST” name=”EmailForm”>
+               <form action=”https://api.staticforms.xyz/submit” method="post">
                   <div class="row">
                      <div class="w-50">
                         <div class="input-group outer-shadow hover-in-shadow">
+                           <input type="hidden" name="accessKey" value="f007e909-1ff2-4d23-9fc5-3116af1e137c">
                            <input type="text" name="name" placeholder="Nome" class="input-control">
                         </div>
                         <div class="input-group outer-shadow hover-in-shadow">
                            <input name="email" type="text" placeholder="Email" class="input-control">
                         </div>
                         <div class="input-group outer-shadow hover-in-shadow">
-                           <input type="text" placeholder="Assunto" class="input-control">
+                           <input type="text" name="subject" placeholder="Assunto" class="input-control">
                         </div>
                      </div>
                      <div class="w-50">
@@ -659,12 +659,13 @@
                   </div>
                   <div class="row">
                       <div class="submit-btn">
-                        <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                        <input type="hidden" name="redirectTo" value="https://aldcejam.github.io/Portfolio/">
+                        <input type="submit" class="btn-1 outer-shadow hover-in-shadow" value="Enviar mensagem">
                      </div>
                   </div>
                </form>
             </div>
-         </div> -->
+         </div>
       </div>
    </section>
    <!-- contact section end -->
