@@ -615,10 +615,8 @@ about section
    padding:0 0 40px;
 }
 .about-section .skills .skill-item{
-   flex:0 0 50%;
-   max-width: 50%;
-   padding:0 15px;
-   margin-bottom: 40px;
+   margin: 10px;
+   color: var(--bg-black-900);
 }
 .about-section .skills .skill-item p{
    font-size: 16px;
