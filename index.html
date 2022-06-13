@@ -57,9 +57,9 @@
       <div class="nav-menu-inner">
          <ul>
             <li><a href="#home" class="link-item inner-shadow active">home</a></li>
-            <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
-            <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfólio</a></li>
-            <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+            <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Projetos</a></li>
+            <li><a href="#about" class="link-item outer-shadow hover-in-shadow">Sobre</a></li>
+            <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contato</a></li>
          </ul>
       </div>
       <!-- copyright text -->
@@ -128,7 +128,10 @@
                <p>Hello</p>
                <h2>I'am Aldcejam</h2>
                <h1>Web Developer front-end</h1>
-               <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">Mais sobre mim</a>
+               <div style="display: flex; gap: 20px;" class="item--center">
+                  <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">Mais sobre mim</a>
+                  <a href="#portfolio" class="link-item btn-1 outer-shadow hover-in-shadow">Projetos</a>
+               </div>
             </div>
             <div class="home-img">
                <div class="img-box inner-shadow">
@@ -336,6 +339,7 @@
          <div class="row">
             <div class="portfolio-filter">
                <span class="filter-item outer-shadow active" data-target="all">Todos</span>
+               <span class="filter-item" data-target="lps">Landing Page</span>
                <span class="filter-item" data-target="NextJs">NextJs</span>
                <span class="filter-item" data-target="ReactJs">ReactJs</span>
             </div>
@@ -346,6 +350,41 @@
          <div class="row portfolio-items">
             <!-- portfolio item start -->
             <!-- img dimension ==  w500 - h281-->
+            <!-- ===========================================Project================================================================= -->
+            <div class="portfolio-item" data-category="lps">
+               <div class="portfolio-item-inner outer-shadow">
+                  <div class="portfolio-item-img">
+                     <img src="img/portfolio/thumb/project-7.png" alt="portfolio" data-screenshots="img/portfolio/large/project-7/1.png,
+                    img/portfolio/large/project-7/2.png,
+                    img/portfolio/large/project-7/3.png">
+                     <!-- view project btn -->
+                     <span class="view-project">ver projeto</span>
+                  </div>
+                  <p class="portfolio-item-title">LPS Pousada</p>
+                  <!-- portfolio item details start -->
+                  <div class="portfolio-item-details">
+                     <div class="row">
+                        <div class="description">
+                           <h3>Projeto Landing Page:</h3>
+                           <p>Este projeto foi desenvolvido na empresa WebSocorro, no qual trabalhei com a semântica
+                              html, otimização de imagens, organização de código e responsividade</p>
+                        </div>
+                        <div class="info">
+                           <h3>Informações do Projeto</h3>
+                           <ul>
+                              <li>Date - <span>2022</span></li>
+                              <!-- <li>Client - <span></span></li> -->
+                              <li>Ferramentas - <span>Html,css,js</span></li>
+                              <li>acessar projeto postado - <span><a target="_blank"
+                                       href="https://mkt.pousadachamame.com.br/pacotes-e-promocoes-bonito-ms">WebSite</a></span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- portfolio item details end -->
+               </div>
+            </div>
             <!-- ===========================================Project================================================================= -->
             <div class="portfolio-item" data-category="ReactJs">
                <div class="portfolio-item-inner outer-shadow">
@@ -500,9 +539,6 @@
                   <!-- portfolio item details end -->
                </div>
             </div>
-            <!-- =========================================== Project ================================================================= -->
-            <!-- portfolio item end -->
-            <!-- portfolio item start -->
             <!-- =========================================== Project ================================================================= -->
             <div class="portfolio-item" data-category="NextJs">
                <div class="portfolio-item-inner outer-shadow">
